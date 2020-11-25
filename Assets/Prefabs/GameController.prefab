@@ -62,7 +62,7 @@ MonoBehaviour:
   CurrentLane: 0
   GameSpeed: 1
   GameRunningTime: 0
-  ObstacleSpawnCooldown: 1
+  ObstacleSpawnCooldown: 0.4
   GameSpeedMin: 3
   GameSpeedMax: 25
   PlayerMinSpeed: 15

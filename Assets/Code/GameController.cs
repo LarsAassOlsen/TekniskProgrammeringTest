@@ -29,7 +29,7 @@ public class GameController : MonoBehaviour
     public int CurrentMoves = 0;
 
     public bool GameRunning = false;
-    public bool GameEnded = false;
+    public bool GameEnded = true;
     public int CurrentLane = 0;
     public float GameSpeed = 1;
     public float GameRunningTime = 0;

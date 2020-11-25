@@ -9,8 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Lane
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _EMISSION
-  m_LightmapFlags: 2
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -73,6 +73,6 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.94348747, g: 0.88113207, b: 1, a: 1}
+    - _Color: {r: 0.9933962, g: 0.9858491, b: 1, a: 1}
     - _EmissionColor: {r: 0.16961741, g: 0.13298643, b: 0.2030631, a: 1}
   m_BuildTextureStacks: []

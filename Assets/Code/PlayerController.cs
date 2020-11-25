@@ -27,6 +27,19 @@ public class PlayerController : MonoBehaviour
                     MoveToLane(Mathf.Clamp(GameController.Instance.CurrentLane + 1, 0, GameController.Instance.Lanes.Count - 1));
                     allowInput = false;
                 }
+                if (Input.GetMouseButtonDown(0))
+                {
+                    if (Input.mousePosition.x < Screen.width / 2)
+                    {
+                        MoveToLane(Mathf.Clamp(GameController.Instance.CurrentLane - 1, 0, GameController.Instance.Lanes.Count - 1));
+                        allowInput = false;
+                    }
+                    else
+                    {
+                        MoveToLane(Mathf.Clamp(GameController.Instance.CurrentLane + 1, 0, GameController.Instance.Lanes.Count - 1));
+                        allowInput = false;
+                    }
+                }
             }
 
             if (moving)
