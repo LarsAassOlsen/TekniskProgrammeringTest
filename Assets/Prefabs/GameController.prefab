@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4946571060701875345
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8160063391768697613}
+  - component: {fileID: 3009811787436234290}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8160063391768697613
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4946571060701875345}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3009811787436234290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4946571060701875345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17039e512d85e8b40a2a3f99d44b2cc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainCanvasController: {fileID: 0}
+  PlayerObject: {fileID: 0}
+  LaneParent: {fileID: 0}
+  PickupObstacleParent: {fileID: 0}
+  Lanes: []
+  PlayerPrefab: {fileID: 8232152548123630443, guid: f05de2f130f99324d859babd25a5d659, type: 3}
+  ObstaclePrefab: {fileID: 293741093646686686, guid: e1c04db38f00cf747abfcfb46b38c9b3, type: 3}
+  PickupPrefab: {fileID: 1132960980319540219, guid: 313928ae13193574e912efc1c6d72a40, type: 3}
+  LanePrefab: {fileID: 1888748479750466031, guid: b0be625f3e7d6654b8dfd8e353bd5c93, type: 3}
+  ScoreText: {fileID: 0}
+  CurrentHighScore: 0
+  CurrentScore: 0
+  CurrentMoves: 0
+  GameRunning: 0
+  GameEnded: 0
+  CurrentLane: 0
+  GameSpeed: 1
+  GameRunningTime: 0
+  GameSpeedMin: 3
+  GameSpeedMax: 25
+  PlayerMinSpeed: 15
+  PlayerMaxSpeed: 50
+  LaneAmountMin: 3
+  LaneAmountMax: 64
+  SpawnTimeRangeMin: 2
+  SpawnTimeRangeMax: 6
