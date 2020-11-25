@@ -18,6 +18,7 @@ public class GameController : MonoBehaviour
     public GameObject ObstaclePrefab;
     public GameObject PickupPrefab;
     public GameObject LanePrefab;
+    public GameObject PickupParticlesPrefab;
 
     [Header("UI")]
     public TextMeshProUGUI ScoreText;

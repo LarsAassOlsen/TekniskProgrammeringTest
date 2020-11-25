@@ -60,6 +60,7 @@ public class PlayerController : MonoBehaviour
     {
         if (other.CompareTag("Pickup"))
         {
+            Instantiate(GameController.Instance.PickupParticlesPrefab, other.transform.position, Quaternion.identity);
             GameController.Instance.CurrentScore++;
             Destroy(other.gameObject);
         }

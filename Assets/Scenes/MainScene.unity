@@ -4802,6 +4802,10 @@ PrefabInstance:
       propertyPath: PickupObstacleParent
       value: 
       objectReference: {fileID: 1964900355}
+    - target: {fileID: 3009811787436234290, guid: 7d9b5dc41c6684242aed330144d47753, type: 3}
+      propertyPath: PickupParticlesPrefab
+      value: 
+      objectReference: {fileID: 2032616040540395793, guid: 712d8fc98526c054f8827ce4a1f0387e, type: 3}
     - target: {fileID: 4946571060701875345, guid: 7d9b5dc41c6684242aed330144d47753, type: 3}
       propertyPath: m_Name
       value: GameController
