@@ -97,7 +97,8 @@ public class MainCanvasController : MonoBehaviour
     public void MainMenuButton()
     {
         GameController.Instance.DeSpawnEverything();
-        GameController.Instance.GameEnded = false;
+        GameController.Instance.GameStarted = false;
+        GameController.Instance.GameEnded = true;
         GameController.Instance.GameRunning = false;
         ToggleInGameUI(false);
         ToggleGameOverMenu(false);

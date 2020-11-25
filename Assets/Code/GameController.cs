@@ -28,6 +28,7 @@ public class GameController : MonoBehaviour
     public int CurrentScore = 0;
     public int CurrentMoves = 0;
 
+    public bool GameStarted = false;
     public bool GameRunning = false;
     public bool GameEnded = true;
     public int CurrentLane = 0;
@@ -64,7 +65,7 @@ public class GameController : MonoBehaviour
             GameSpeed = Mathf.Clamp(GameSpeedMin + (GameRunningTime / 5), GameSpeedMin, GameSpeedMax);
             ScoreText.text = "Score: " + CurrentScore;
         }
-        if (!GameEnded)
+        if (!GameEnded && GameStarted)
         {
             if (Input.GetKeyDown(KeyCode.P) || Input.GetKeyDown(KeyCode.Escape))
             {
@@ -80,6 +81,7 @@ public class GameController : MonoBehaviour
         CurrentLane = laneAmount / 2;
         CurrentScore = 0;
         GameRunningTime = 0;
+        GameStarted = true;
         GameRunning = true;
         GameEnded = false;
     }
@@ -110,6 +112,7 @@ public class GameController : MonoBehaviour
         {
             MainCanvasController.ToggleGameOverMenu(true,false);
         }
+        GameStarted = false;
         GameRunning = false;
         GameEnded = true;
     } 

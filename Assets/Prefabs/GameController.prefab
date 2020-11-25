@@ -57,6 +57,7 @@ MonoBehaviour:
   CurrentHighScore: 0
   CurrentScore: 0
   CurrentMoves: 0
+  GameStarted: 0
   GameRunning: 0
   GameEnded: 0
   CurrentLane: 0
