@@ -43,6 +43,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f48ba32ccfb9cea42aeccd5f7b913c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ObstacleCooldown: 0
+  SpawnerIndex: 0
 --- !u!1 &1888748479750466031
 GameObject:
   m_ObjectHideFlags: 0
@@ -91,6 +93,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LocalSpawnPoint: {fileID: 6881314284182987973}
   PlayerPoint: {fileID: 4749735595968460799}
+  PickupObstacleSpawner: {fileID: 3704731356805102550}
 --- !u!1 &2785910939013540340
 GameObject:
   m_ObjectHideFlags: 0

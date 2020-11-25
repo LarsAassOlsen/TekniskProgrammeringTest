@@ -1911,7 +1911,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.29957277, g: 0.4325481, b: 0.6415094, a: 0}
+  m_BackGroundColor: {r: 0.42168033, g: 0.5940928, b: 0.8679245, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -4802,10 +4802,6 @@ PrefabInstance:
       propertyPath: PickupObstacleParent
       value: 
       objectReference: {fileID: 1964900355}
-    - target: {fileID: 3009811787436234290, guid: 7d9b5dc41c6684242aed330144d47753, type: 3}
-      propertyPath: PickupParticlesPrefab
-      value: 
-      objectReference: {fileID: 2032616040540395793, guid: 712d8fc98526c054f8827ce4a1f0387e, type: 3}
     - target: {fileID: 4946571060701875345, guid: 7d9b5dc41c6684242aed330144d47753, type: 3}
       propertyPath: m_Name
       value: GameController

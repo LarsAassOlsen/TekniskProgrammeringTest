@@ -35,6 +35,7 @@ public class GameController : MonoBehaviour
     public float GameRunningTime = 0;
 
     [Header("Game Settings")]
+    public float ObstacleSpawnCooldown;
     public float GameSpeedMin;
     public float GameSpeedMax;
 
@@ -118,6 +119,7 @@ public class GameController : MonoBehaviour
         for (int i = 0; i < laneAmount; i++)
         {
             GameObject instantiatedLane = Instantiate(LanePrefab, new Vector3(i * 4.0F, LaneParent.position.y, LaneParent.position.z), Quaternion.identity, LaneParent);
+            instantiatedLane.GetComponent<LaneScript>().PickupObstacleSpawner.SpawnerIndex = i;
             Lanes.Add(instantiatedLane.GetComponent<LaneScript>());
         }
         LaneParent.position = new Vector3(-laneAmount * 4.0F / laneAmount, LaneParent.position.y, LaneParent.position.z);

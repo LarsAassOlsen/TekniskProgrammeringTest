@@ -52,6 +52,7 @@ MonoBehaviour:
   ObstaclePrefab: {fileID: 293741093646686686, guid: e1c04db38f00cf747abfcfb46b38c9b3, type: 3}
   PickupPrefab: {fileID: 1132960980319540219, guid: 313928ae13193574e912efc1c6d72a40, type: 3}
   LanePrefab: {fileID: 1888748479750466031, guid: b0be625f3e7d6654b8dfd8e353bd5c93, type: 3}
+  PickupParticlesPrefab: {fileID: 2032616040540395793, guid: 712d8fc98526c054f8827ce4a1f0387e, type: 3}
   ScoreText: {fileID: 0}
   CurrentHighScore: 0
   CurrentScore: 0
@@ -61,6 +62,7 @@ MonoBehaviour:
   CurrentLane: 0
   GameSpeed: 1
   GameRunningTime: 0
+  ObstacleSpawnCooldown: 1
   GameSpeedMin: 3
   GameSpeedMax: 25
   PlayerMinSpeed: 15
